@@ -108,16 +108,16 @@ button:hover {
 }
 
 /* New Task */
-label[for='new-task'] {
+.add-task__label {
   display: block;
   margin: 0 0 20px;
 }
 
-input#new-task {
+.task-row__input-text {
   width: 318px;
 }
 
-p > button:hover {
+.add-task__btm-add {
   color: #0fc57c;
 }
 
