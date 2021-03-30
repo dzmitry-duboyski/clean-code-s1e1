@@ -129,10 +129,6 @@ button:hover {
   align-items: center;
 }
 
-li > * {
-  vertical-align: middle;
-}
-
 .task__input-checkbox {
   margin: 0 10px;
 }
