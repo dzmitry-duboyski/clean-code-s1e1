@@ -165,7 +165,7 @@ button:hover {
 }
 
 /* Edit Task */
-ul li input[type=text] {
+.task__input-text {
   display: none;
 }
 
