@@ -40,7 +40,7 @@ body {
   flex-grow: 1;
 }
 
-.task-row__input {
+.task-row__input-text {
   width: 56%;
   display: inline-block;
   flex-grow: 1;
@@ -116,10 +116,6 @@ button:hover {
 
 .task-row__input-text {
   width: 318px;
-}
-
-.add-task__btm-add {
-  color: #0fc57c;
 }
 
 /* Task list */
