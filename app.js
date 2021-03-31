@@ -13,7 +13,26 @@ var addButton=document.getElementById("btn-add-task");//first button
 var incompleteTaskHolder=document.getElementById("incompleteTasks");//ul of #incompleteTasks
 var completedTasksHolder=document.getElementById("completed-tasks");//completed-tasks
 
-
+// Так как это учебное задание, то я позволю себе высказаться здесь.
+// Это задание доставляет боль, автор этого задания,
+// ставил явную цель, доставить  душевные страдания при выполнении)))
+// Но нужно понимать, что это все с благими намерениями.
+const iAmSad =  
+`😭😭😭😭😭😭😭😭😭😭😭😭😭😭😭😭😭😭😭\n
+😭Выполнение этого задания,                   😭\n
+😭заставляет страдать.                        😭\n
+😭Но  вместе с страданием,                    😭\n
+😭ты начинаешь что то понимать...             😭\n
+😭😭😭😭😭😭😭😭😭😭😭😭😭😭😭😭😭😭😭\n
+😭Понимать зачем писать чистый код...         😭\n
+😭И что твой код будут читать, и дописывать...😭\n
+😭😭😭😭😭😭😭😭😭😭😭😭😭😭😭😭😭😭😭\n
+😭Код написанный в этом приложении            😭\n
+😭проще было написать с нуля,                 😭\n
+😭чем в нем разобраться.                      😭\n
+😭😭😭😭😭😭😭😭😭😭😭😭😭😭😭😭😭😭😭😭\n
+`;
+console.log(iAmSad)
 //New task list item
 var createNewTaskElement=function(taskString){
 
