@@ -159,7 +159,7 @@ button:hover {
 }
 
 /* Completed */
-.task__label_completed {
+.completed-tasks .task__label {
   text-decoration: line-through;
   color: #888;
 }
@@ -169,11 +169,15 @@ button:hover {
   display: none;
 }
 
-.task__input-text.task__input-text_mode-edit {
+.editMode .task__input-text {
   display: inline-block;
   width: 224px;
 }
 
-.task__label_mode-edit {
+.editMode .task__label_mode-edit {
   display: none;
 }
+.editMode .task__label {
+  display: none;
+}
+
